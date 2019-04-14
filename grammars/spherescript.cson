@@ -1,0 +1,52 @@
+'scopeName': 'source.spherescript'
+'fileTypes': [
+  'scp'
+]
+'name': 'Spherescript'
+'patterns': [
+  {
+    'begin': '//'
+    'end': '\n'
+    'name': 'comment.spherescript'
+  }
+  {
+    'match': '\\[(.*?)\\]'
+    'name': 'entity.name.section.group-title.spherescript'
+  }
+  {
+    'match': 'on=(.*?)\\s',
+    'name': 'keyword.control.spherescript'
+  }
+  {
+    'match': '(?<!\\.)\\b(if|elif|else|elseif|endif|begin|dorand|endrand|enddo|doswitch|end|for|endfor|while|endwhile|return)(?!\\s*:)\\b'
+    'name': 'keyword.control.spherescript'
+  }
+  {
+    'match': '\<(?:(?:\<(?:(?:\<(?:[^<>])*\>)|(?:[^<>]))*\>)|(?:[^<>]))*\>',
+    'name': 'string.quoted.spherescript'
+  }
+  {
+    'match': '\\b(ref[0-9]*?|trysrc)\\b'
+    'name': 'variable.definition.spherescript'
+  }
+  {
+    'match': '\\b[0-9]+\\b'
+    'name': 'constant.numeric.decimal.spherescript'
+  }
+  {
+    'match': '\\b0[0-9a-fA-F]+\\b'
+    'name': 'constant.numeric.hex.spherescript'
+  }
+  {
+    'match': '!==|!=|<=|>=|===|==|<|>'
+    'name': 'variable.definition.spherescript'
+  }
+  {
+    'match': '\\b(and|or)\\b'
+    'name': 'variable.definition.spherescript'
+  }
+  {
+    'match': '&&|\\|\\|'
+    'name': 'variable.definition.spherescript'
+  }
+]

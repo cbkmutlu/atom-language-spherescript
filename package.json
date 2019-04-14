@@ -1,0 +1,14 @@
+{
+  "name": "language-spherescript",
+  "version": "1.0.0",
+  "description": "Sphere Script language support in Atom",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/mutlucbk/language-spherescript",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  }
+}

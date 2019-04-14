@@ -2,11 +2,11 @@
   "name": "language-spherescript",
   "version": "1.0.0",
   "description": "Sphere Script language support in Atom",
-  "keywords": [
-    "language",
-    "grammar"
-  ],
-  "repository": "https://github.com/mutlucbk/atom-language-spherescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mutlucbk/atom-language-spherescript"
+  },
+  "homepage": "https://github.com/mutlucbk/atom-language-spherescript",
   "license": "MIT",
   "engines": {
     "atom": "*"

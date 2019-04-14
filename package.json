@@ -6,7 +6,7 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/mutlucbk/language-spherescript",
+  "repository": "https://github.com/mutlucbk/atom-language-spherescript",
   "license": "MIT",
   "engines": {
     "atom": "*"

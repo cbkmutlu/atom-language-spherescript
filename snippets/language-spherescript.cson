@@ -1,0 +1,106 @@
+'.source.spherescript':
+  'todo':
+    'prefix': 'todo'
+    'body': '// TODO: $0'
+  'fixme':
+    'prefix': 'fix'
+    'body': '// FIXME: $0'
+  'idea':
+    'prefix': 'idea'
+    'body': '// IDEA: $0'
+  'note':
+    'prefix': 'note'
+    'body': '// NOTE: $0'
+  'bug':
+    'prefix': 'bug'
+    'body': '// BUG: $0'
+  'combak':
+    'prefix': 'combak'
+    'body': '// COMBAK: $0'
+  'temp':
+    'prefix': 'temp'
+    'body': '// TEMP: $0'
+  'debug':
+    'prefix': 'debug'
+    'body': '// DEBUG: $0'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '// OPTIMIZE: $0'
+  'warning':
+    'prefix': 'warning'
+    'body': '// WARNING: $0'
+  'function':
+    'prefix': 'function'
+    'body': '[function f_$0]'
+  'dialog':
+    'prefix': 'dialog'
+    'body': '[dialog d_$0]'
+  'events':
+    'prefix': 'events'
+    'body': '[events e_$0]'
+  'itemdef':
+    'prefix': 'itemdef'
+    'body': '[itemdef i_$0]'
+  'chardef':
+    'prefix': 'chardef'
+    'body': '[chardef c_$0]'
+  'multidef':
+    'prefix': 'multidef'
+    'body': '[multidef m_$0]'
+  'on=@?':
+    'prefix': 'on'
+    'body': 'on=@$0'
+  'on=@attack':
+    'prefix': 'attack'
+    'body': 'on=@attack\n'
+  'on=@click':
+    'prefix': 'click'
+    'body': 'on=@click\n'
+  'on=@create':
+    'prefix': 'create'
+    'body': 'on=@create\n'
+  'on=@criminal':
+    'prefix': 'criminal'
+    'body': 'on=@criminal\n'
+  'on=@dclick':
+    'prefix': 'dclick'
+    'body': 'on=@dclick\n'
+  'on=@death':
+    'prefix': 'death'
+    'body': 'on=@death\n'
+  'on=@deathcorpse':
+    'prefix': 'deathcorpse'
+    'body': 'on=@deathcorpse\n'
+  'on=@destroy':
+    'prefix': 'destroy'
+    'body': 'on=@destroy\n'
+  'on=@dismount':
+    'prefix': 'dismount'
+    'body': 'on=@dismount\n'
+  'on=@dye':
+    'prefix': 'dye'
+    'body': 'on=@dye\n'
+  'on=@eat':
+    'prefix': 'eat'
+    'body': 'on=@eat\n'
+  'on=@environchange':
+    'prefix': 'environchange'
+    'body': 'on=@environchange\n'
+  'on=@famechange':
+    'prefix': 'famechange'
+    'body': 'on=@famechange\n'
+  'on=@gethit':
+    'prefix': 'gethit'
+    'body': 'on=@gethit\n'
+  'on=@hit':
+    'prefix': 'hit'
+    'body': 'on=@hit\n'
+  'on=@hitmiss':
+    'prefix': 'hitmiss'
+    'body': 'on=@hitmiss\n'
+  'on=@hittry':
+    'prefix': 'hittry'
+    'body': 'on=@hittry\n'
+  'on=@hunger':
+    'prefix': 'hunger'
+    'body': 'on=@hunger\n'

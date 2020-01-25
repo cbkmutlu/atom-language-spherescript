@@ -4,9 +4,9 @@
   "description": "Sphere Script language support in Atom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mutlucbk/atom-language-spherescript"
+    "url": "https://github.com/cbkmutlu/atom-language-spherescript"
   },
-  "homepage": "https://github.com/mutlucbk/atom-language-spherescript",
+  "homepage": "https://github.com/cbkmutlu/atom-language-spherescript",
   "license": "MIT",
   "engines": {
     "atom": "*"

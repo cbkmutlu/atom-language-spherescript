@@ -14,11 +14,11 @@
     'name': 'entity.name.section.group-title.spherescript'
   }
   {
-    'match': 'on=(.*?)\\s',
+    'match': '(?i)on=(.*?)\\s',
     'name': 'keyword.control.spherescript'
   }
   {
-    'match': '(?<!\\.)\\b(if|elif|else|elseif|endif|begin|dorand|endrand|enddo|doswitch|end|for|endfor|while|endwhile|return)(?!\\s*:)\\b'
+    'match': '(?<!\\.)(?i)\\b(if|elif|else|elseif|endif|begin|dorand|endrand|enddo|doswitch|end|for|endfor|while|endwhile|return)(?!\\s*:)\\b'
     'name': 'keyword.control.spherescript'
   }
   {

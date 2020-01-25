@@ -1,0 +1,11 @@
+'body':
+    'ctrl-p': 'tree-view:toggle'
+
+'atom-text-editor':
+    'ctrl-q': 'editor:toggle-line-comments'
+    'ctrl-t': 'editor:move-line-up'
+    'ctrl-shift-u': 'editor:upper-case'
+    'ctrl-u': 'editor:lower-case'
+    'f4': 'editor:lower-case'
+    'f5': 'editor:upper-case'
+    'ctrl-d': 'editor:duplicate-lines'

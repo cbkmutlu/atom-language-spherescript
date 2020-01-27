@@ -14,7 +14,7 @@
     'name': 'entity.name.section.group-title.spherescript'
   }
   {
-    'match': '(?i)on=(.*?)\\s',
+    'match': '(?i)\\bon=\\@(.*?)\\s',
     'name': 'keyword.control.spherescript'
   }
   {
